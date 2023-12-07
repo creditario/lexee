@@ -1,0 +1,11 @@
+@layer base {
+  :root {
+    --color-base: 17 24 39;
+    --color-inverted: 238 238 238;
+    --color-muted: 55 65 81;
+    --color-dimmed: 75 85 99;
+    --color-accented: 35 47 61;
+    --color-alternate: 253 119 121;
+    --color-alternate-1: 251 164 40;
+  }
+}

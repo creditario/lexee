@@ -17,7 +17,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://lexee.io" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: pretty
 template_engine: erb
@@ -28,6 +28,9 @@ template_engine: erb
 # ensure you use the `relative_url` helper for all links and assets in your HTML.
 # If you're using esbuild for frontend assets, edit `esbuild.config.js` to
 # update `publicPath`.
+
+timezone: Guadalajara
+lang: "es"
 
 # timezone: America/Los_Angeles
 # pagination:

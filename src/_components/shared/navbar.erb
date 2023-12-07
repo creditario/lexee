@@ -1,11 +1,14 @@
 <header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
+  <nav>
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-8">
+      <div class="relative z-10 flex items-center gap-16">
+        <a aria-label="home" href="<%= relative_url '/' %>" class="font-righteous text-4xl text-skin-accented transition-colors hover:text-skin-alternate">lexee</a>
+        <div class="hidden lg:flex lg:gap-10">
+          <a href="<%= relative_url '/#features' %>" class="hidden relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-skin-dimmed transition-colors hover:text-skin-muted">Características</a>
+        </div>
+      </div>
+      <div class="flex items-center gap-6">
+      </div>
+    </div>
+  </nav>
 </header>
-
-<nav>
-  <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/about' %>">About</a></li>
-    <li><a href="<%= relative_url '/posts' %>">Posts</a></li>
-  </ul>
-</nav>
